@@ -6,6 +6,6 @@ public class NerdLauncherActivity extends SingleFragmentActivity {
 
     @Override
     protected Fragment createFragment() {
-        return null;
+        return NerdLauncherFragment.newInstance();
     }
 }
